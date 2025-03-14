@@ -1,14 +1,4 @@
-# Building Data Warehouse and ETL pinelines with Airflow Project
-
-### Set up Environments
-1. Airflow with Docker
-   - Download docker-compose.yaml file.
-   - Create folder: mkdir -p ./dags, ./logs, ./plugins, ./config
-   - Init docker with airflow: docker compose up airflow-init
-   - Running Airflow: docker compose up -d
-   - Check docker running: docker ps
-
-# Online Retail Data Pipeline Project
+# Building Data Warehouse and ETL pinelines for Online Retail Data Project
 
 ## 📊 Project Overview
 This project focuses on building a complete **data pipeline** for the [Online Retail dataset](https://www.kaggle.com/datasets/tunguz/online-retail?resource=download). The goal is to extract, transform, and load (ETL) the dataset into a PostgreSQL data warehouse and visualize the insights using Python & Power BI. Apache Airflow is used to orchestrate and automate the data pipeline.
