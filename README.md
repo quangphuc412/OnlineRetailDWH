@@ -16,6 +16,9 @@ This project focuses on building a complete **data pipeline** for the [Online Re
 ## 🔬 Architecture
 ![Architecture](./images/architecture.png)
 
+## 📝 Data Modeling
+![Data Modeling](./images/data_modeling.png)
+
 ## 🛠️ Technology Stack
 - **Apache Airflow**: Workflow orchestration for managing ETL processes.
 - **Python**: Data extraction, transformation, loading and analysis.
@@ -36,6 +39,8 @@ This project focuses on building a complete **data pipeline** for the [Online Re
     - `Country`: Customer's country
 
 ## 📌 Project Workflow
+- Airflow ETL pineline
+![ETL](./images/airflow_pineline.png)
 1. **Extract**: Download and extract data from the Kaggle dataset.
 2. **Transform**: Clean and preprocess the data (e.g., handling missing values, data type conversion).
 3. **Load**: Load the processed data into a PostgreSQL data warehouse.
